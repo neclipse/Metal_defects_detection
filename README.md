@@ -1,7 +1,7 @@
 # Metal_defects_detection
 
 ## Coworkers: 
-Hao Wen, Chang Huang
+Hao Wen
 
 ## Objective: 
 Defects dection in SEM images by using advanced computer vision, Mask-RCNN
