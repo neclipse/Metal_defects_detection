@@ -1,18 +1,13 @@
 # Metal_defects_detection
 
 ## Coworkers: 
-Hao Wen
+Hao Wen, Chang Huang
 
 ## Objective: 
-Defects dection in SEM images by using advanced computer vision, Mask-RCNN
+Defects dection in SEM images by using advanced computer vision
 
 ## Tool:
-It adopts the Detectron2 as the main Engine. 
+It adopts the CNN, YOLOv4 and Detectron2 as the main Engine. 
 
-## The basic workflow:
-
-1. Convert dataset to COCO format
-2. Register the dataset with Detectron
-3. Check the dataset
-4. Train on the dataset with carefully selected model from the [model zoo](https://github.com/facebookresearch/detectron2/blob/master/MODEL_ZOO.md). Tune the model if necessary.
-5. Validate the dataset with model inference and evaluation
+## The basic folder contents:
+Each folder contains the data and codes for each model. Please change the data path when testing the codes.
